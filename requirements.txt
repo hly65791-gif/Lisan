@@ -1,0 +1,12 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+httpx==0.28.1
+pytesseract==0.3.13
+
+redis==5.2.1
+# Optional production object storage (install only the provider you use):
+boto3==1.35.99
+google-cloud-storage==2.18.2
+
+opencv-python-headless>=4.10,<5
